@@ -207,12 +207,13 @@ p
 {
     display: flex;
     flex-direction: row;
-    margin: 20px 0;
+    margin: 30px 0;
 }
 
 .about .boxExp .year_company
 {
-    min-width: 150px;
+    max-width: 250px;
+    margin-right: 40px;
 }
 
 .about .boxExp .year_company h5
@@ -220,6 +221,12 @@ p
     text-transform: uppercase;
     color: #848c90;
     font-weight: 600;
+}
+
+.about .boxExp .text
+{
+    position: relative;
+    max-width: 300px;
 }
 
 .about .boxExp .text h4
